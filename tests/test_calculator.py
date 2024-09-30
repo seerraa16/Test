@@ -1,6 +1,6 @@
 import unittest
 import math
-from src import calculator, add, subtract, multiply, divide, power, sqrt, sin, cos, tan, factorial
+from lacalculadora import calculator, add, subtract, multiply, divide, power, sqrt, sin, cos, tan, factorial
 class TestCalculator(unittest.TestCase):
 
     def test_add(self):
