@@ -1,6 +1,6 @@
 import unittest
 import math
-from src.calculator import calculator, add, subtract, multiply, divide, power, sqrt, sin, cos, tan, factorial
+from src import calculator, add, subtract, multiply, divide, power, sqrt, sin, cos, tan, factorial
 class TestCalculator(unittest.TestCase):
 
     def test_add(self):
